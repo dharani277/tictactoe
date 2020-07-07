@@ -1,0 +1,50 @@
+{
+  "agents": [
+    {
+      "id": 3,
+      "name": {
+        "first": "Some",
+        "last": "one"
+      },
+      "mobile": 9087654321,
+      "email": "someone@gmail.com"
+    }
+  ],
+  "contacts": [
+    {
+      "id": 7,
+      "name": {
+        "first": "johnn",
+        "last": "rahh"
+      },
+      "mobile": 234567890,
+      "email": "john@rahh.com"
+    }
+  ],
+  "tickets": [
+    {
+      "id": 1,
+      "subject": "test",
+      "description": "test ticket",
+      "contactId": 7,
+      "agentId": 3
+    }
+  ],
+  "type": {
+    "question": "Question",
+    "incident": "Incident",
+    "problem": "Problem"
+  },
+  "status": {
+    "open": "Open",
+    "pending": "Pending",
+    "resolved": "Resolved",
+    "closed": "Closed"
+  },
+  "priority": {
+    "low": "Low",
+    "medium": "Medium",
+    "high": "High",
+    "urgent": "Urgent"
+  }
+}
